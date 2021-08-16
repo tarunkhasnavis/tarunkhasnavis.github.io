@@ -25,7 +25,7 @@ function Header({ toggle }) {
                         onClick={() => setClicked(!clicked)}
                     ></span>
                     <motion.h1 className="header__mobile__title">Tarun Khasnavis.</motion.h1>
-                    <input id="toggle" className="toggle__mobile" type="checkbox" onClick={toggle}></input>
+                    <input id="toggle__mobile" className="toggle__mobile" type="checkbox" onClick={toggle}></input>
                 </div>
             </div>
             

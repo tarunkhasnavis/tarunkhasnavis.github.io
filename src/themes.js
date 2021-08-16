@@ -62,6 +62,10 @@ export const GlobalStyles = createGlobalStyle`
         color: ${({ theme }) => theme.text};
     }
 
+    .toggle__mobile {
+        color: ${({ theme }) => theme.text};
+    }
+
     .header__container { 
         background-color: ${({ theme }) => theme.body};
     }
