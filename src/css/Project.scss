@@ -1,0 +1,15 @@
+.projects {
+    margin-top: 50px;
+    margin-bottom: 210px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+.card-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}

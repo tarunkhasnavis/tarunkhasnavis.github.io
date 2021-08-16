@@ -1,0 +1,131 @@
+.app {
+  display: flex;
+  justify-content: center;
+}
+
+.app__container {
+  width: 70%;
+}
+
+.splash {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  align-content: center;
+  height: 100vh;
+  margin-bottom: 50px;
+}
+
+.title {
+  position: absolute;
+  text-align: center;
+
+  h1 {
+    font-family: meno-banner, serif;
+    font-size: 80px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: rgb(36, 36, 36);
+    // font-weight: 500;
+  }
+
+  .subtitle {
+    display: flex;
+
+    span {
+      font-family: Cardo, serif;
+      font-size: 18px;
+      margin-top: 1px;
+      color: rgb(36, 36, 36);
+      margin-right: 4px;
+    }
+  }
+}
+
+.footer {
+  position: relative;
+  margin-left: -21.5%;
+  margin-right: -21.5%;
+  z-index: 10;
+
+  .footer__top {
+    padding: 65px 0;
+    // background: #dfdfdfb5;
+  
+    .footnote__container {
+      max-width: 1320px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-left: 60px;
+      margin-right: 60px;
+      padding-left: 20px;
+      padding-right: 20px;
+      
+      >p {
+        font-size: 42px;
+        font-family: Cardo,serif;
+        // color: rgb(36, 36, 36);
+      }
+
+      >a{
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 50px;
+        width: 125px;
+        // border: 1px solid #333;
+        border-radius: 2px;
+        padding: 5px;
+        margin-right: 10%;
+        font-size: 18px;
+        font-family: "Red Hat Text", sans-serif;
+        // color: #333;
+      }
+
+      >a:hover {
+        transition: 0.15s;
+        transform: scale3d(1.05,1.05,1.05)
+      }
+    }
+  }
+
+  .footer__bottom {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    // margin-left: 65px;
+    display: flex;
+    justify-content: center;
+
+    >p {
+      font-size: 14px;
+      font-weight: 500;
+      color: rgb(111, 111, 111);
+    }
+  }
+
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .bg {
+    z-index: -10;
+    width: 440px; 
+    height: 440px; 
+    border-radius: 15rem; 
+    background: radial-gradient(ellipse at 50% 50%, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0) 100%), radial-gradient(ellipse at 70% 60%, #c3e060 0%, rgba(195, 224, 96, 0) 90%), radial-gradient(ellipse at 30% 30%, #c3e060 0%, rgba(195, 224, 96, 0) 60%), radial-gradient(ellipse at bottom left, #00a3cb 0%, rgba(0, 163, 203, 0) 70%), linear-gradient(135deg, rgba(18, 46, 119, 0) 0%, rgba(18, 46, 119, 0) 75%, #122e77 100%), linear-gradient(to right, #625793 0%, #d55d64 35%, #e49129 65%, #c0671c 100%); 
+    background-blend-mode: screen, luminosity, saturation, darken, color-dodge, color; 
+    // filter: blur(46px);
+    filter: blur(23px);
+    animation: bg-spin infinite 12s linear;
+  }
+}
+
+@keyframes bg-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
