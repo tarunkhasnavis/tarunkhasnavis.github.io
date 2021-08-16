@@ -10,9 +10,9 @@ function About() {
             <p className="hi" data-aos="fade-up" data-aos-duration="750">Hi,</p>
             <div className="about_body" data-aos="fade-up" data-aos-duration="1250">
                 <div className="about_introduction">
-                    <p>I'm a software engineer working in San Francisco, California. I am a Computer Science graduate from UC Berkeley working at Salesforce for the past 2 years. I work on full-stack engineering projects and am interested in blockchain and the creator economy.</p>
+                    <p>I'm a software engineer working in San Francisco, California. I graduated from UC Berkeley in 2019 and have been working at Salesforce. I work on full-stack engineering projects and am interested in blockchain and the creator economy.</p>
                     <p></p>
-                    <p>I am also a dancer, film-maker, and mucisian. I love working on new and exciting projects, so feel free to reach out or say hello!</p>
+                    <p>I am also a dancer, film-maker, and musician. I love working on new and exciting projects, so feel free to reach out or say hello!</p>
                 </div>
                 <div className="about_side">
                     <img src={propic}/>    
