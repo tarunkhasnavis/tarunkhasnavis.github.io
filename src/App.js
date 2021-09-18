@@ -4,7 +4,7 @@ import Project from './Project'
 import Header from './Header'
 import About from './About'
 import Socials from './Socials'
-import resume from "./assets/Tarun_Khasnavis_MTS.pdf"
+import resume from "./assets/Tarun_Khasnavis_Resume.pdf"
 import { motion } from "framer-motion"
 import styled, { ThemeProvider } from 'styled-components';
 import { lightTheme, darkTheme, GlobalStyles } from "./themes.js";
