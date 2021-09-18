@@ -7,6 +7,7 @@ import covid19 from './assets/covid-dashboard-icon.png';
 import opyn from './assets/eth-icon.png';
 import pineapple from './assets/pineapple-logo.svg';
 import slack from './assets/slack_logo.png';
+import coingecko from './assets/coingecko_logo.png';
 
 function Project() {
 
@@ -56,11 +57,11 @@ function Project() {
                 />
                 <ProjectCard 
                     index={5}
-                    title="Slack"
-                    description="Slack Clone" 
-                    image={slack}
-                    link="https://slack-clone-aa04d.web.app/"
-                    git_link="https://github.com/tarunkhasnavis/slack-clone"
+                    title="Coin Gecko"
+                    description="MultiSafe Coin Gecko Clone" 
+                    image={coingecko}
+                    link="https://multisafe-challenge-a3c7e.web.app/"
+                    git_link="https://multisafe-challenge-a3c7e.web.app/"
                 /> 
             </div>
         </div>
